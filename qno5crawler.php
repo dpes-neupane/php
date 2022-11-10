@@ -1,4 +1,6 @@
 <?php
+// A php crawler that goes to the book store page and scraps the "Science" category 
+// and saves the data (book, bookURL, category URL, price, category, rating, stock availability )
 $hashArr = array();
 $category = strtolower("Science");
 
@@ -176,3 +178,4 @@ foreach ($books as $b) {
 }
 
 curl_close($c_session);
+?>

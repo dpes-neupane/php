@@ -1,4 +1,5 @@
 <?php
+// a php program to dump the json from the given website into a csv file
 $url = 'https://dummyjson.com/products/search?q=Laptop';
 $c_session = curl_init();
 curl_setopt($c_session, CURLOPT_RETURNTRANSFER, 1);
